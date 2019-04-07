@@ -56,7 +56,7 @@ cacheSolve <- function(x, ...) {
   # then calculate the inverse
   s <- solve(m, ...)
   # then cache the inverse
-  x$setSolve(m)
+  x$setSolve(s)
   # finally return the calculate inverse
   s
 }
